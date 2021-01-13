@@ -1,0 +1,68 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+Blue #13DCF2
+Green #7ED923
+Yellow	#F2CC10
+Orange	#F2A413
+Orange2	#F27830	
+*/
+
+.color-blue{ color:#13DCF2; }
+.color-green{ color:#7ED923; }
+.color-yellow{ color:#F2CC10; }
+.color-orange{ color:#F2A413; }
+.color-burnt{ color:#F27830; }
+
+body{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: .9rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+	background-color: #F27830;
+}
+header a, header a:visited{
+	color: white;
+	text-decoration: none;
+}
+header a:hover, header a:active{
+	color: #efefef
+}
+header span{
+	margin: 0 .3em;
+	font-size: .6rem;
+}
+footer{ 
+	background-color: #13DCF2;
+}
+
+a, a:visited, a:hover, a:active{
+	color: #000;
+	text-decoration: none;
+}
+.hiddenElement{ display: none;}
+
+.legroom{
+	padding-bottom: .5rem;
+	margin-bottom: .5rem;
+}
+
+/* Slick Carousel */
+.slick-arrow::before{
+	color: #F2A413;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 992px){
+	header span{
+		font-size: .8rem;
+	}
+}
